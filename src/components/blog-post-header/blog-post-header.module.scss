@@ -1,0 +1,21 @@
+.header {
+  h2 {
+    font-size: 2.25rem;
+  }
+
+  .subtitle {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 2em;
+
+    .date {
+      white-space: nowrap;
+    }
+
+    .series {
+      a {
+        font-style: italic;
+      }
+    }
+  }
+}

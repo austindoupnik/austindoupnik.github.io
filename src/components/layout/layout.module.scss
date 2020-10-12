@@ -1,0 +1,18 @@
+@import "../../styles/reset";
+
+.layout {
+  margin: 2rem auto 10rem auto;
+  max-width: 60%;
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3rem;
+
+    h1 {
+      display: table-caption;
+      font-size: 5rem;
+    }
+  }
+}

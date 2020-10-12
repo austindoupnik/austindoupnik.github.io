@@ -1,0 +1,14 @@
+.container {
+  overflow: auto;
+}
+
+.article {
+  margin-top: 2rem;
+
+  code {
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    border-radius: .4rem;
+    padding: .2rem .4rem;
+    background-color: rgba(27,31,35,.05);
+  }
+}

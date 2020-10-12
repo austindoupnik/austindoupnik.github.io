@@ -1,0 +1,27 @@
+@import "../../styles/reset";
+
+$rss-orange: rgb(238, 128, 47);
+
+@mixin icon-link {
+  @include reset-link;
+  font-size: 1.5rem;
+}
+
+.container {
+  display: inline-grid;
+  grid-template-columns: repeat(3, auto);
+  grid-column-gap: .5em;
+
+  .tag-link {
+    @include icon-link;
+  }
+
+  .github-link {
+    @include icon-link;
+  }
+
+  .rss-link {
+    @include icon-link;
+    color: $rss-orange;
+  }
+}

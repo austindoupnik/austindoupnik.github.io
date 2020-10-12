@@ -1,0 +1,64 @@
+.gatsby-highlight {
+  background-color: #2d2d2d;
+  border-radius: 0.3em;
+  margin: 1em 0;
+  padding: 1em;
+  overflow: auto;
+
+  pre[class*="language-"] {
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    overflow: initial;
+    float: left;
+    min-width: 100%;
+  }
+
+  pre[class*="language-"].line-numbers {
+    padding-left: 2.8em;
+  }
+}
+
+.gatsby-highlight-code-line {
+  background-color: #444444;
+  display: block;
+  margin-right: -1em;
+  margin-left: -1em;
+  padding-right: 1em;
+  padding-left: 0.75em;
+  border-left: 0.25em solid #990000;
+}
+
+.command-line-prompt {
+  > span {
+    &:before {
+      color: #999;
+      content: " ";
+      display: block;
+      padding-right: 0.8em;
+    }
+  }
+
+  > span[data-user] {
+    &:before {
+      content: "000 " attr(data-user) " $";
+    }
+  }
+
+  > span[data-user="root"] {
+    &:before {
+      content: "[" attr(data-user) "@" attr(data-host) "] #";
+    }
+  }
+
+  > span[data-prompt] {
+    &:before {
+      content: attr(data-prompt);
+    }
+  }
+}
+
+.gatsby-resp-image-figcaption {
+  font-style: italic;
+  text-align: center;
+}
