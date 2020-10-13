@@ -52,7 +52,7 @@ function Header({title}: { title: string }) {
   return (
     <div className={styles.header}>
 
-      <Link to="/">
+      <Link className={styles.title} to="/">
         <h1>
           {title}
         </h1>

@@ -22,9 +22,13 @@
     margin-bottom: 3rem;
     flex-wrap: wrap;
 
-    h1 {
-      display: table-caption;
-      font-size: 5rem;
+    .title {
+      @include reset-header-link;
+
+      h1 {
+        display: table-caption;
+        font-size: 5rem;
+      }
     }
   }
 }

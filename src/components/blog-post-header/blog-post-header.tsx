@@ -49,7 +49,7 @@ export default function BlogPostHeader(props: BlogPostHeaderProps): ReactElement
 
   return (
     <header className={styles.header}>
-      <Link to={props.slug} className={styles.title}>
+      <Link className={styles.title} to={props.slug}>
         <h2>{props.title}</h2>
       </Link>
       <div className={styles.subtitle}>

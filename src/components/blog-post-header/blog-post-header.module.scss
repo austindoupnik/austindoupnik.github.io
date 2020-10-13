@@ -1,6 +1,12 @@
+@import "../../styles/reset";
+
 .header {
-  h2 {
-    font-size: 2.25rem;
+  .title {
+    @include reset-header-link;
+
+    h2 {
+      font-size: 2.25rem;
+    }
   }
 
   .subtitle {

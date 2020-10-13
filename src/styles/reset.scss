@@ -4,3 +4,12 @@
   background-image: initial;
   color: initial;
 }
+
+@mixin reset-header-link {
+  color: rgb(0, 0, 0);
+
+  h1, h2, h3, h4, h5, h6 {
+    border-bottom: initial;
+    color: initial;
+  }
+}
