@@ -131,4 +131,4 @@ After all of that we can produce an image:
 
 ![A blue-to-white gradient depending on ray Y coordinate ](./image.png "A blue-to-white gradient depending on ray Y coordinate")
 
-The complete code is [available here](https://github.com/austindoupnik/ray-tracing-in-one-weekend-with-rust/tree/v0.0.1-chapter.3).
+The complete code is [available here](https://github.com/austindoupnik/ray-tracing-in-one-weekend-with-rust/tree/v0.0.1-chapter.4).
