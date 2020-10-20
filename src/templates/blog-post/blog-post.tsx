@@ -5,6 +5,8 @@ import NavigationFooter from '../../components/navigation-footer/navigation-foot
 import * as styles from './blog-post.module.scss';
 import BlogPostHeader from '../../components/blog-post-header/blog-post-header';
 
+import 'katex/dist/katex.min.css';
+
 type QueryResult = {
   data: {
     markdownRemark: {

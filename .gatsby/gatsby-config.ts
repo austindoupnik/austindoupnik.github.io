@@ -55,6 +55,7 @@ export default {
       resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [
+          'gatsby-remark-katex',
           'gatsby-remark-autolink-headers',
           {
             resolve: 'gatsby-remark-prismjs',
