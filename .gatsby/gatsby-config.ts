@@ -118,7 +118,7 @@ export default {
             serialize: ({query: {site, allMarkdownRemark}}: FeedQueryResult): FeedResult => {
               return allMarkdownRemark.edges.map((edge) => {
                 return {
-                  title: (edge.node.frontmatter.series == null ? '' : edge.node.frontmatter.series + ' :') + edge.node.frontmatter.title,
+                  title: (edge.node.frontmatter.series == null ? '' : edge.node.frontmatter.series.title + ': ') + edge.node.frontmatter.title,
                   description: edge.node.excerpt,
                   date: edge.node.frontmatter.date,
                   url: site.siteMetadata.siteUrl + edge.node.fields.slug,
