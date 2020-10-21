@@ -171,5 +171,7 @@ export default {
       },
     },
     'gatsby-plugin-sharp',
+    'gatsby-plugin-sitemap',
+    'gatsby-plugin-robots-txt',
   ],
 };
