@@ -3,7 +3,7 @@ title: 'Ch 2. Output an Image'
 series:
     title: 'Ray Tracing in One Weekend with Rust'
     part: 1
-date: '2020-10-05'
+date: '2020-10-05T00:00:00+00:00'
 tags:
     - 'rust'
     - 'ray tracing'

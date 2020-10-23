@@ -3,7 +3,7 @@ title: 'Ch 6. Surface Normals and Multiple Objects'
 series:
     title: 'Ray Tracing in One Weekend with Rust'
     part: 5
-date: '2020-10-21'
+date: '2020-10-21T00:00:00+00:00'
 tags:
     - 'rust'
     - 'ray tracing'

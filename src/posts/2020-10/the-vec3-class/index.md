@@ -3,7 +3,7 @@ title: 'Ch 3. The vec3 Class'
 series:
     title: 'Ray Tracing in One Weekend with Rust'
     part: 2
-date: '2020-10-13'
+date: '2020-10-13T00:00:00+00:00'
 tags:
     - 'rust'
     - 'ray tracing'

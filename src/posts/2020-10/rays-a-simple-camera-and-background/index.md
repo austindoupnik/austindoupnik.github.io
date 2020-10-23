@@ -3,7 +3,7 @@ title: 'Ch 4. Rays, a Simple Camera, and Background'
 series:
     title: 'Ray Tracing in One Weekend with Rust'
     part: 3
-date: '2020-10-14'
+date: '2020-10-14T00:00:00+00:00'
 tags:
     - 'rust'
     - 'ray tracing'

@@ -3,7 +3,7 @@ title: 'Ch 5. Adding a Sphere'
 series:
     title: 'Ray Tracing in One Weekend with Rust'
     part: 4
-date: '2020-10-20'
+date: '2020-10-20T00:00:00+00:00'
 tags:
     - 'rust'
     - 'ray tracing'

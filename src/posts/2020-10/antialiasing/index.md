@@ -3,7 +3,7 @@ title: 'Ch 7. Antialiasing'
 series:
     title: 'Ray Tracing in One Weekend with Rust'
     part: 6
-date: '2020-10-22'
+date: '2020-10-22T00:00:00+00:00'
 tags:
     - 'rust'
     - 'ray tracing'

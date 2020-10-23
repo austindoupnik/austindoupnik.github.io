@@ -3,7 +3,7 @@ title: 'Ch 8. Diffuse Materials'
 series:
     title: 'Ray Tracing in One Weekend with Rust'
     part: 7
-date: '2020-10-23'
+date: '2020-10-23T00:00:00+00:00'
 tags:
     - 'rust'
     - 'ray tracing'
