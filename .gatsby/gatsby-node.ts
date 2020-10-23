@@ -2,6 +2,7 @@ import slugify from 'slugify';
 import path from 'path';
 import {createFilePath} from 'gatsby-source-filesystem';
 import {Node} from 'gatsby';
+import util from 'util';
 
 type BlogPostQueryResult = {
   data: {
@@ -204,10 +205,14 @@ async function createSeriesPages(graphql: GraphQL, createPage: (page: PageInput)
     throw result.errors;
   }
 
-  const allSeries = new Set<Series>();
+  const allSeries: Series[] = [];
   result.data.allMarkdownRemark.edges.forEach(edge => {
-    if (edge.node.frontmatter.series) {
-      allSeries.add(edge.node.frontmatter.series);
+    const series: Series = edge.node.frontmatter.series;
+    if (series !== null && series !== undefined) {
+      if (allSeries.find(s => util.isDeepStrictEqual(s, series)) !== undefined) {
+        throw new Error(`Duplicate series part: ${JSON.stringify(series)}`);
+      }
+      allSeries.push(series);
     }
   });
 
