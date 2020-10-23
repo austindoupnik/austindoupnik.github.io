@@ -85,6 +85,7 @@ export default {
               showCaptions: [
                 'title',
               ],
+              quality: 100,
             },
           },
         ],
