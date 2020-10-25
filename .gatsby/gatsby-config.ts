@@ -45,17 +45,6 @@ export default {
   },
   plugins: [
     {
-      resolve: 'gatsby-plugin-google-analytics',
-      options: {
-        trackingId: 'UA-181001740-1',
-        head: true,
-        anonymize: true,
-        respectDNT: true,
-        cookieFlags: 'SameSite=None; Secure',
-        cookieDomain: 'austindoupnik.github.io',
-      },
-    },
-    {
       resolve: 'gatsby-source-filesystem',
       options: {
         path: `${__dirname}/../src/posts`,
