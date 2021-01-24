@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url> <loc>https://austindoupnik.github.io/post/2020-10/output-an-image/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://austindoupnik.github.io/post/2020-10/the-vec3-class/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://austindoupnik.github.io/post/2020-10/rays-a-simple-camera-and-background/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://austindoupnik.github.io/post/2020-10/adding-a-sphere/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://austindoupnik.github.io/post/2020-10/surface-normals-and-multiple-objects/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://austindoupnik.github.io/post/2020-10/antialiasing/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://austindoupnik.github.io/post/2020-10/diffuse-materials/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://austindoupnik.github.io/post/2020-10/metal/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://austindoupnik.github.io/post/2020-10/dielectrics/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://austindoupnik.github.io/post/2020-10/positionable-camera/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://austindoupnik.github.io/post/2020-10/defocus-blur/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://austindoupnik.github.io/post/2020-10/where-next/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://austindoupnik.github.io/post/2020-11/motion-blur/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://austindoupnik.github.io/post/2020-11/bounding-volume-hierarchies/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://austindoupnik.github.io/post/2020-12/solid-textures/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://austindoupnik.github.io/post/2020-12/perlin-noise/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://austindoupnik.github.io/post/2021-01/image-texture/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://austindoupnik.github.io/post/2021-01/rectangles-and-lights/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://austindoupnik.github.io/post/2021-01/instances/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://austindoupnik.github.io/tag/rust</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://austindoupnik.github.io/tag/ray-tracing</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://austindoupnik.github.io/series/ray-tracing-in-one-weekend-with-rust</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://austindoupnik.github.io/series/ray-tracing:-the-next-week</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://austindoupnik.github.io/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://austindoupnik.github.io/tag/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+</urlset>

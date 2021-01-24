@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://austindoupnik.github.io/sitemap.xml
+Host: https://austindoupnik.github.io
